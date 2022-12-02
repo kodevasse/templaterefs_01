@@ -4,11 +4,7 @@ import { RouterLink, RouterView } from "vue-router";
 
 <template>
   <header>
-    <nav>
-      <RouterLink to="/">Overview</RouterLink>
-      <RouterLink to="/">Javascript basic</RouterLink>
-      <RouterLink to="/">Vue basic</RouterLink>
-    </nav>
+    <nav></nav>
   </header>
 
   <RouterView />
